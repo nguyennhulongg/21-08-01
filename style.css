@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    display: inline-block;
+    background-color: #170f23;
+}
+
+
+.container{
+    overflow: hidden;
+}
+
+.container a img{
+    height: 118px;
+    width: 210px;
+    border-radius: 8px;
+    margin: 0 14px;
+    transition: 0.7s;
+}
+
+.container a img:hover{
+    transform: scale(1.02);
+    transition: 0.7s;
+}
+
+
